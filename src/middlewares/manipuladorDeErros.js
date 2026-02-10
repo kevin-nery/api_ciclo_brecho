@@ -1,6 +1,6 @@
-import ErroBase from '../../erros/ErroBase.js';
-import RequisicaoIncorreta from '../../erros/RequisicaoIncorreta.js';
-import ErroValidacao from '../../erros/ErroValidacao.js';
+import ErroBase from '../erros/ErroBase.js';
+import RequisicaoIncorreta from '../erros/RequisicaoIncorreta.js';
+import ErroValidacao from '../erros/ErroValidacao.js';
 import { PrismaClientKnownRequestError, PrismaClientValidationError } from '@prisma/client/runtime/client';
 
 
