@@ -18,6 +18,3 @@ export async function uploadFotos(req, res, next) {
         next(erro);
     }
 }
-
-
-
