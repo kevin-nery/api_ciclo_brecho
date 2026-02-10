@@ -12,6 +12,7 @@ class ProdutosController {
     };
     static async listarProdutoPorId(req, res, next){
         try {
+            
             const id = parseInt(req.params.id);
             const produtoEncontrado = await prisma.produtos.findUnique({
                 where: {
